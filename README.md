@@ -1,5 +1,7 @@
 # AICivilization
 
+![AICivilization preview](media/aicivilization_readme_preview.gif)
+
 AICivilization is a Windows desktop civilization-observation simulator built
 with C++20, raylib, and raygui.
 
@@ -23,6 +25,16 @@ The UI and in-game notifications are Japanese-localized.
 - BGM, sound effects, optional VOICEVOX TTS, and Windows notifications
 - Save/load, snapshots, CSV export, logs, timeline, and final report output
 - Headless tests for simulation, concepts, anomalies, agents, and save/load
+
+## Promo Media
+
+Promo-ready files are included in `media/`.
+
+- `aicivilization_teaser_landscape.mp4`: 20-second 16:9 teaser for GitHub, YouTube, and articles
+- `aicivilization_teaser_vertical.mp4`: 20-second 9:16 teaser for short-form social posts
+- `aicivilization_world_loop.mp4`: cropped world-view loop
+- `aicivilization_readme_preview.gif`: lightweight README preview
+- `aicivilization_thumbnail.png`: thumbnail / article header image
 
 ## Requirements
 
