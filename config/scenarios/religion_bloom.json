@@ -1,0 +1,18 @@
+{
+  "id": "religion_bloom",
+  "name": "宗教開花",
+  "description": "宗教、法、概念の創発を観測するシナリオ。",
+  "seed": 3333,
+  "initial_agents": 10,
+  "resource_total": 1100.0,
+  "environment_pressure": 0.2,
+  "anomaly_pressure": 0.08,
+  "max_cycle": 18000,
+  "auto_snapshot_interval": 3000,
+  "experiment_bh_gv_hh": false,
+  "faith_bias": 0.6,
+  "creativity_bias": 0.45,
+  "anomaly_schedule": [
+    { "cycle": 90,  "type": "OutsideSignal", "strength": 40 }
+  ]
+}

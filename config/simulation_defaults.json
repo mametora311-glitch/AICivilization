@@ -1,0 +1,13 @@
+{
+  "seed": 12345,
+  "max_cycle": 18000,
+  "simulation_speed": 1.0,
+  "auto_snapshot_interval": 3000,
+  "world_bounds": {
+    "width": 2000,
+    "height": 1400
+  },
+  "resource_total": 1000.0,
+  "environment_pressure": 0.2,
+  "anomaly_pressure": 0.05
+}

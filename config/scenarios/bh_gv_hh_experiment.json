@@ -1,0 +1,20 @@
+{
+  "id": "bh_gv_hh_experiment",
+  "name": "BH-GV-HH実験",
+  "description": "ブラックホール、重力、ホワイトホールを順に観測する高危険度実験。",
+  "seed": 12345,
+  "initial_agents": 12,
+  "resource_total": 1600.0,
+  "environment_pressure": 0.2,
+  "anomaly_pressure": 0.05,
+  "max_cycle": 18000,
+  "auto_snapshot_interval": 3000,
+  "experiment_bh_gv_hh": true,
+  "faith_bias": 0.25,
+  "creativity_bias": 0.35,
+  "anomaly_schedule": [
+    { "cycle": 80,  "type": "BlackHole", "strength": 60 },
+    { "cycle": 125, "type": "Gravity",   "strength": 55 },
+    { "cycle": 160, "type": "WhiteHole", "strength": 90 }
+  ]
+}

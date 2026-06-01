@@ -1,0 +1,2 @@
+Place TrueType/OpenType font files in this directory.
+The application falls back to the raylib built-in font when none are present.

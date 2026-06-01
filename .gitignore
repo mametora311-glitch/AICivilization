@@ -1,0 +1,32 @@
+# Build output
+/build/
+/out/
+/cmake-build-*/
+
+# CMake / Visual Studio local state
+/external/
+/.vs/
+CMakeUserPresets.json
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# Runtime-generated data
+/cache/
+/logs/
+/data/saves/
+/data/snapshots/
+/data/exports/
+
+# Large source WAVs kept outside the published package.
+/bgm_*.wav
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

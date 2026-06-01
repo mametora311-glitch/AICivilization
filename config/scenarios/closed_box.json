@@ -1,0 +1,16 @@
+{
+  "id": "closed_box",
+  "name": "閉鎖箱庭",
+  "description": "外部異常のない完全閉鎖環境。",
+  "seed": 777,
+  "initial_agents": 8,
+  "resource_total": 800.0,
+  "environment_pressure": 0.35,
+  "anomaly_pressure": 0.0,
+  "max_cycle": 18000,
+  "auto_snapshot_interval": 3000,
+  "experiment_bh_gv_hh": false,
+  "faith_bias": 0.15,
+  "creativity_bias": 0.25,
+  "anomaly_schedule": []
+}

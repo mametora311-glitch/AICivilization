@@ -1,0 +1,22 @@
+{
+  "blackhole": {
+    "duration_cycles": 70,
+    "role": ["absorb", "compress", "increase_concept_density", "raise_collapse_risk"]
+  },
+  "gravity": {
+    "duration_cycles": 65,
+    "role": ["transfer", "bind", "alter_orbits", "maintain_compression"]
+  },
+  "whitehole": {
+    "duration_cycles": 80,
+    "role": ["redischarge", "reconstruct", "unknown_shift", "post_singularity_shift"]
+  },
+  "unknown_stress": [
+    "OutsideSignal",
+    "TimeFracture",
+    "MemoryEater",
+    "Eclipse",
+    "Mirror",
+    "NoiseRain"
+  ]
+}

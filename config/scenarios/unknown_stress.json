@@ -1,0 +1,22 @@
+{
+  "id": "unknown_stress",
+  "name": "UNKNOWNストレス",
+  "description": "UNKNOWN負荷が高く、異常干渉が頻発するシナリオ。",
+  "seed": 4242,
+  "initial_agents": 6,
+  "resource_total": 1000.0,
+  "environment_pressure": 0.25,
+  "anomaly_pressure": 0.35,
+  "max_cycle": 18000,
+  "auto_snapshot_interval": 3000,
+  "experiment_bh_gv_hh": false,
+  "faith_bias": 0.3,
+  "creativity_bias": 0.35,
+  "anomaly_schedule": [
+    { "cycle": 40,  "type": "OutsideSignal", "strength": 50 },
+    { "cycle": 80,  "type": "NoiseRain",     "strength": 60 },
+    { "cycle": 120, "type": "Mirror",        "strength": 55 },
+    { "cycle": 160, "type": "TimeFracture",  "strength": 65 },
+    { "cycle": 200, "type": "Eclipse",       "strength": 70 }
+  ]
+}

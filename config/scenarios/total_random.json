@@ -1,0 +1,17 @@
+{
+  "id": "total_random",
+  "name": "完全ランダム",
+  "description": "パラメータと異常挙動を完全ランダム化するシナリオ。",
+  "seed": 0,
+  "initial_agents": 8,
+  "resource_total": 1000.0,
+  "environment_pressure": 0.3,
+  "anomaly_pressure": 0.3,
+  "max_cycle": 18000,
+  "auto_snapshot_interval": 3000,
+  "experiment_bh_gv_hh": false,
+  "randomize": true,
+  "faith_bias": 0.3,
+  "creativity_bias": 0.35,
+  "anomaly_schedule": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "memory_collapse",
+  "name": "記憶崩壊",
+  "description": "記憶喰らいの負荷によって記憶崩壊系列を観測するシナリオ。",
+  "seed": 9001,
+  "initial_agents": 7,
+  "resource_total": 950.0,
+  "environment_pressure": 0.3,
+  "anomaly_pressure": 0.25,
+  "max_cycle": 18000,
+  "auto_snapshot_interval": 3000,
+  "experiment_bh_gv_hh": false,
+  "faith_bias": 0.35,
+  "creativity_bias": 0.3,
+  "anomaly_schedule": [
+    { "cycle": 50,  "type": "MemoryEater", "strength": 60 },
+    { "cycle": 110, "type": "MemoryEater", "strength": 70 },
+    { "cycle": 170, "type": "Eclipse",     "strength": 55 },
+    { "cycle": 230, "type": "MemoryEater", "strength": 80 }
+  ]
+}

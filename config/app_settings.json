@@ -1,0 +1,27 @@
+{
+  "audio": {
+    "bgm_volume": 0.699999988079071,
+    "duck_during_tts": true,
+    "mute": false,
+    "se_volume": 0.5
+  },
+  "notification": {
+    "cooldown_seconds": 10,
+    "in_app": true,
+    "min_level": 4,
+    "speaker_id": 1,
+    "tts": true,
+    "tts_volume": 1.0,
+    "voicevox_endpoint": "http://127.0.0.1:50021",
+    "windows": true
+  },
+  "simulation": {
+    "auto_snapshot_interval": 3000,
+    "max_cycle": 18000,
+    "seed": 0,
+    "speed": 1.0
+  },
+  "ui": {
+    "language": 0
+  }
+}
